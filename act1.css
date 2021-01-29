@@ -1,0 +1,167 @@
+
+@font-face{
+
+	font-family:lletra;
+	src:url(LTInternet-Regular.tff);
+
+}
+
+.posicio{
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+
+h1{
+	font-family: 'Gravitas One', cursive;
+	font-size:220%;
+
+}
+.primer, .segon, .tercer{
+	
+	flex-grow: 0;
+	margin:10px;
+	height: 425px;
+	
+	
+	background-color:#92D7EF;
+	
+
+}
+.segon{
+	flex-grow: 1;
+	background-image:url("https://aq.insbaixcamp.cat/IsoIndex/images/logocapapp.png");
+	background-repeat:no-repeat;
+	background-position: center;
+
+
+
+}
+
+
+footer{
+	
+	
+	
+	background-color:#92D7EF;
+}
+
+
+body{
+
+	font-family: 'Raleway', sans-serif;
+
+
+}
+a{
+
+	text-decoration:none;
+	list-style:none;
+
+}
+a:visited{
+
+	color:black;
+
+}
+
+.blau:hover{
+
+	
+	color:blue;
+	
+
+}
+img.pequeña{
+  width: 200px; height: 250px;
+  
+}
+.segon{
+
+column-count:2;
+background-color:white;
+border-style:solid;
+border-color:#AAD2E0;
+border-radius:1%;
+height:300%;
+
+}
+img.headerimg{
+	display:flex;
+	justify-content:flex-end;
+}
+.izquierda{
+	width:50%;
+	margin:0;
+}
+.derecha{
+	width:50%;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	margin:0;
+}
+.headerdiv{
+
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#AAD2E0;
+
+}
+.footerdiv{
+
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#AAD2E0;
+
+}
+i{
+	size:20%;
+	font-size:30px;
+	
+
+}
+button{
+
+	background-color:#AAD2E0;
+	border-style:none;
+}
+.progressbar div {
+	color: #727272;
+	border: solid 9px #F8BB10;
+	border-radius: 15px;
+	
+}
+
+.progressbar {
+	
+	margin-top:10px;
+	border-radius: 15px;
+}
+@media screen and (max-width: 992px) {
+	.segon{
+
+		column-count:1;
+		background-color:white;
+		border-style:solid;
+		border-color:#AAD2E0;
+		border-radius:1%;
+
+}
+	
+}
+@media screen and (max-width: 576px) {
+	.primer {
+		width:100%;
+		text-align: left;
+		padding: 20px 0 0 25px;
+		}
+	.segon {
+		width:100%;
+		padding: 25px 15px 0 25px;
+	}
+	
+	}
